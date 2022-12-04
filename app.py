@@ -208,7 +208,7 @@ def hava_durumu():
             baslik.config(text="YEREL SAAT")
 
             # Hava Durumu
-            api_key = "caa39983056377866ffffccd4779da5b"
+            api_key = "xxx"
             api = "https://api.openweathermap.org/data/2.5/weather?q=" + \
                 sehir + "&appid=" + api_key + "&lang=tr"
 
